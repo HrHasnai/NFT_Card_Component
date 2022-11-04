@@ -1,0 +1,112 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding: 20px;
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+}
+img {
+  width: 300px;
+  border-radius: 8px;
+}
+.content {
+  width: 300px;
+}
+.content h2 {
+  margin-top: 25px;
+  font-family: "Outfit", sans-serif;
+  width: 300px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+}
+.content p {
+    font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.6rem;
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-content: center;
+  margin: 30px 0px;
+}
+
+.left-h4 {
+  font-family: "Outfit", sans-serif;
+  position: relative;
+  left: 5px;
+  color: hsl(178, 100%, 50%);
+}
+.right-h4 {
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+}
+.left-small {
+    display: flex;
+  align-items: center;
+}
+.right-small {
+  display: flex;
+  align-items: center;
+}
+
+.left-small .ethm {
+    
+  width: 10px;
+}
+.right-small .clock {
+  position: relative;
+  right: 5px;
+  width: 18px;
+  height: 18px;
+}
+hr {
+  height: 2px;
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+  margin: 20px 0px;
+}
+.low-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 8px;
+}
+.low-container .low-profile {
+  display: flex;
+
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+.low-container p {
+  margin: 0px;
+  position: relative;
+  left: 15px;
+}
+.low-container p span {
+  color: hsl(0, 0%, 100%);
+}
